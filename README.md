@@ -20,15 +20,24 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not a forecast. Past growth does not predict future returns
 - Not investment guidance. It reports the math on the numbers you enter
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/cagr-and-rule-of-72-calculator/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+1. Enter the start value and the end value.
+2. Enter the number of years between them.
+3. Read the CAGR and the total change. Results update as you type.
+4. Compare the rule of 72 doubling time with the exact figure, and check the forward projections.
+
+## Why this exists
+
+Checking an annual growth rate or a doubling time should not require a finance site full of trackers and ads. This is one HTML file that does the math in your browser, with no tracking, released under the MIT license.
+
 ## Privacy
 
-Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+Everything runs client-side. No analytics, no cookies, no network calls, no local storage except your light or dark theme choice (the `theme` key, saved when you click the theme button). The numbers you type are never saved or sent anywhere.
 
 ## Related
 
@@ -39,6 +48,19 @@ Everything runs client-side. No analytics, no cookies, no network calls, no loca
 ## More
 
 Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/cagr-and-rule-of-72-calculator
+cd cagr-and-rule-of-72-calculator
+```
+
+Open `index.html` in a browser, or serve the folder with `python -m http.server 8000` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with inline CSS and JavaScript.
 
 ## Third-party notices
 
