@@ -42,7 +42,7 @@ Everything runs client-side. No analytics, no cookies, no network calls, no loca
 ## Related
 
 - [monthly-compounding-growth-chart](https://github.com/0xelitesystem/monthly-compounding-growth-chart)
-- [real-return-calculator](https://github.com/0xelitesystem/real-return-calculator)
+- [inflation-break-even-return](https://github.com/0xelitesystem/inflation-break-even-return)
 - [inflation-and-real-returns-basics-reference](https://github.com/0xelitesystem/inflation-and-real-returns-basics-reference)
 
 ## More
